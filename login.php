@@ -95,31 +95,35 @@
 
 <?php
 
-if (isset($_POST['sub']))
- {
-  
+if (isset($_POST['sub'])) {
   include('db.php');
 
-  $name=$_POST['name'];
+  // Recogemos las variables de POST y utilizamos mysqli_real_escape_string para evitar caracteres peligrosos.
+  $name = mysqli_real_escape_string($conn, $_POST['name']);
+  $pass = mysqli_real_escape_string($conn, $_POST['pass']);
   
-        $pass=$_POST['pass'];
-        
-        $sql="SELECT * FROM `userr` WHERE name='$name' and pass='$pass'";
-        $res=mysqli_query($conn,$sql);
+  // Preparar la consulta
+  $stmt = $conn->prepare("SELECT * FROM `userr` WHERE name = ? AND pass = ?");
+  // Enlazar parámetros
+  $stmt->bind_param("ss", $name, $pass);
+  // Ejecutar la consulta
+  $stmt->execute();
+  // Obtener el resultado
+  $res = $stmt->get_result();
 
-      if (mysqli_num_rows($res)>0)
-       {
-       
-       echo "<script>alert('Login Sucessfully..'); window.open('cart.php','_self');</script>";
-        $_SESSION["user"] = $name;
-      }
-      else
-      {
-         echo "<script>alert('Enter valid User name & Password..');</script>";
-      }
-
-
+  if ($res->num_rows > 0) {
+      echo "<script>alert('Login Sucessfully..'); window.open('cart.php','_self');</script>";
+      session_start();
+      $_SESSION["user"] = $name;
+  } else {
+      echo "<script>alert('Enter valid User name & Password..');</script>";
+  }
+  
+  // Cerrar la declaración y la conexión
+  $stmt->close();
+  $conn->close();
 }
+
   
 ?>
 

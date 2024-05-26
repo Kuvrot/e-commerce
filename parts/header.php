@@ -23,7 +23,11 @@
   	</div>
 
 -->
-
+<style>
+  body{
+    font-family: 'Fredoka';
+  }
+</style>
 <div class="container" style="">
   		<div class="row">
   			<div class="col-md-4">
@@ -36,7 +40,7 @@
   			<div class="col-md-4">
   				<div class="icon3">
   					<a href="https://goo.gl/maps/ZQUnuedvt6E5mjjv5"> <i class="fa fa-map-marker" aria-hidden="true">Location</i></a>
-  					 <a  href="cart.php"><i class="fa fa-shopping-cart" aria-hidden="true">Carrito(<?php echo $count; ?>)</i></a>
+  					 <a  href="cart.php"><i class="fa fa-shopping-cart" aria-hidden="true">Carrito (<?php echo $count; ?>)</i></a>
   				</div>
                
   			</div>
