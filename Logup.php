@@ -64,28 +64,28 @@
 
 
         <div class="Signup">
-           <h2>Logup</h2>
+           <h2>Registrarse</h2>
               <hr>
-          <form method="post" name="Signup" action="" onsubmit="return(validate_signup())">
-            <label for="name">Full Name:</label>
+          <form method="post" name="Signup" action="Logup.php">
+            <label for="name">Nombre completo</label>
             <br>
-            <input type="text" name="name" placeholder="Enter your Name.."  id="name">
+            <input type="text" name="name" placeholder="Tu nombre..."  id="name">
             <br>
             <label for="phone">Phone Number:</label>
             <br>
-            
+            <input type="text" name="phone" placeholder="Número de teléfono"  id="name">
             <br>
-            <label for="email">Email Address:</label>
+            <label for="email">Contacto</label>
              <br>
-            <input type="text" name="email" placeholder="Enter your Email.."  id="email">
+            <input type="text" name="email" placeholder="Tu email..."  id="email">
             <br>
             <label for="pass">Enter Password:</label>
              <br>
-            <input type="password" name="pass" placeholder="Enter your Password.."   id="pass">
+            <input type="password" name="pass" placeholder="Contraseña..."   id="pass">
             <br>
-            <label for="re-pass">Re-Enter Password:</label>
+            <label for="re-pass">Vuelve a introducir tu contraseña...</label>
              <br>
-           <input type="password" name="re_pass" placeholder=" Re-Enter your password"  id="re-pass">
+           <input type="password" name="re_pass" placeholder=" Vuelve a introducir tu contraseña..."  id="re-pass">
             <br><br>
             <input type="submit" name="submit" value="Crear cuenta" class="btn bg-dark" >
             <br>

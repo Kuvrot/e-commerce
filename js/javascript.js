@@ -4,7 +4,7 @@
   {
     //	alert("trsting");
 
-    if (document.form.fname.value=="")
+        /* if (document.Signup.name.value=="")
      {
        alert("Enter your Fullname..");
        return false;
@@ -14,7 +14,7 @@
      {
      	re = /^[a-zA-Z\s]+$/;
 
-       	if (!re.test(document.form.fname.value))
+       	if (!re.test(document.Signup.name.value))
        	 {
            alert("user name can't be spacial symbol and number empty..");
            return false;
@@ -22,10 +22,10 @@
      }
 
 
-
+*/
      //phone
-
-     if (document.form.phone.value=="")
+/*
+     if (document.Signup.phone.value=="")
      {
        alert("Enter your Phone number..");
        return false;
@@ -35,12 +35,13 @@
      {
      	re=/^[6-9]\d{9}$/
 
-       	if (!re.test(document.form.fname.value))
+       	if (!re.test(document.Signup.phone.value))
        	 {
            alert("Enter valide Phone number");
            return false;
        	 }
      }
+*/
 
 
      //email
@@ -76,7 +77,7 @@
   function validate_signup()
   {
 
-    if (document.Signup.name.value=="")
+    /* if (document.Signup.name.value=="")
      {
        alert("Enter your Fullname..");
        return false;
@@ -94,9 +95,9 @@
      }
 
 
-
+*/
      //phone
-
+/*
      if (document.Signup.phone.value=="")
      {
        alert("Enter your Phone number..");
@@ -113,7 +114,7 @@
            return false;
        	 }
      }
-
+*/
 
      //email
    

@@ -18,7 +18,7 @@
 
   	<html lang="en">
 	<link rel="icon" href="img\th (1).jfif" height="20%"/>
-	<title>Index page</title>
+	<title>Contacto</title>
 	<!-- for-mobile-apps -->
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -52,7 +52,7 @@
 <!--end of nav---mc_-->
   <div class="container">
     <div class="Contact">
-        <h3> CONTACT US</h3>
+        <h3> CONTÁCTANOS</h3>
         <hr>
     </div>
     
@@ -63,32 +63,32 @@
       <div class="col-md-6 col-xs-12">
 
          <h4>Contáctanos</h4>
-                      <form method="post" name="form" onsubmit="return(validate())">
+                      <form method="post" name="form" action="Contact.php">
                           <div class="form-group">
                             <label>Tu nombre: </label>
-                            <input name="fname" type="text" class="form-control" id="fname" placeholder="Enter your Full Name" >              
+                            <input name="fname" type="text" class="form-control" id="fname" placeholder="Tu nombre" >              
                             </div>
 
                             <div class="form-group">
                             <label>Teléfono: </label>
-                            <input name="phone" type="text" class="form-control" placeholder="Enter your Phone Number.." >                
+                            <input name="phone" type="text" class="form-control" placeholder="Número telefónico" >                
                              </div>
 
                           <div class="form-group">
                           <label>Email: </label>
-                          <input name="email" type="text"  class="form-control" placeholder="Enter your Email Name" >
+                          <input name="email" type="text"  class="form-control" placeholder="Dirección de correo electónico" >
                            </div>
 
                            <div class="form-group">
                           <label>Asunto: </label>
-                          <input name="Subject" type="text"  class="form-control" type="text" placeholder="Enter your Subject" >
+                          <input name="Subject" type="text"  class="form-control" type="text" placeholder="Asunto" >
                            </div>
 
                            <div class="form-group">
                           <label>Mensaje</label>
-                           <textarea class="form-control" placeholder="Type Something .." id="exampleFormControlTextarea1" rows="3"></textarea>
+                           <textarea class="form-control" placeholder="Escribe algo .." id="exampleFormControlTextarea1" rows="3"></textarea>
                            </div>
-                           <input type="submit" name="sub" value="Send Now">
+                           <input type="submit" name="sub" value="Enviar mensaje">
                        </form>
           
         
