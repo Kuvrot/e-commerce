@@ -1,10 +1,3 @@
-
-
-  
-  //MADE WITH LOVE...Anime
-
-
-
   //contact pafe..
 
   function validate()

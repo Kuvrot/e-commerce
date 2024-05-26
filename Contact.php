@@ -12,8 +12,6 @@
         }
 ?>
 
-  <!------------------made with love......-->
-
   <!DOCTYPE html>
   <html>
   <head>
@@ -64,30 +62,30 @@
     <div class="row">
       <div class="col-md-6 col-xs-12">
 
-         <h4>SEND A MESSAGE</h4>
+         <h4>Contáctanos</h4>
                       <form method="post" name="form" onsubmit="return(validate())">
                           <div class="form-group">
-                            <label>Name:</label>
+                            <label>Tu nombre: </label>
                             <input name="fname" type="text" class="form-control" id="fname" placeholder="Enter your Full Name" >              
                             </div>
 
                             <div class="form-group">
-                            <label>Phone:</label>
+                            <label>Teléfono: </label>
                             <input name="phone" type="text" class="form-control" placeholder="Enter your Phone Number.." >                
                              </div>
 
                           <div class="form-group">
-                          <label>Email:</label>
+                          <label>Email: </label>
                           <input name="email" type="text"  class="form-control" placeholder="Enter your Email Name" >
                            </div>
 
                            <div class="form-group">
-                          <label>Subject:</label>
+                          <label>Asunto: </label>
                           <input name="Subject" type="text"  class="form-control" type="text" placeholder="Enter your Subject" >
                            </div>
 
                            <div class="form-group">
-                          <label>Message:</label>
+                          <label>Mensaje</label>
                            <textarea class="form-control" placeholder="Type Something .." id="exampleFormControlTextarea1" rows="3"></textarea>
                            </div>
                            <input type="submit" name="sub" value="Send Now">
@@ -100,10 +98,11 @@
           <h4>Dirección</h4>
            <p>Email: tecnodeliciosas@gmail.com</p>
             <p>Teléfono: 771000000</p>
-            <p>Carretera México - Pachuca Km. 87.5,
-C.P. 42080, Colonia Venta Prieta,
-Pachuca de Soto, Hidalgo, México.
-</p>
+            <p>
+              Carretera México - Pachuca Km. 87.5,
+              C.P. 42080, Colonia Venta Prieta,
+              Pachuca de Soto, Hidalgo, México.
+            </p>
 
       </div>
       

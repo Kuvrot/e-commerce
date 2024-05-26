@@ -55,7 +55,7 @@
 
 <!--end of nav---mc_-->
 
-  	<div class="container-fluid about" style="color:white;">
+  	<div class="container-fluid about expand" style="color:white;">
       <div class="container sub_about">
         <h3>SOBRE NOSOTROS</h3>
          <h4 style="text-align:center;">Misión</h4>

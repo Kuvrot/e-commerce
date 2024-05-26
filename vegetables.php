@@ -64,6 +64,9 @@
         
       </div>
       
+        <h4 align="center" style="color:rgb(242, 156, 170)">15% de descuento al usar la compra rápida</h3>
+        <br>
+
     </div>
 
 

@@ -57,12 +57,12 @@
         
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 shadow">
 
               <div class="Signup">
-           <h2>Log in</h2>
+           <h2>Ingresar</h2>
           
-          <form method="post" name="Signin"  onsubmit="return(validate_in());">
+          <form method="post" name="Signin"  onsubmit="return(validate_in());" >
             <label for="name">User Name:</label>
             <br>
             <input type="text" name="name"  id="name" placeholder="Enter your user name">

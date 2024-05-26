@@ -26,11 +26,8 @@
 
 <div class="container" style="">
   		<div class="row">
-
   			<div class="col-md-4">
-  			 <div class="brand">
-  			 	 <a href="index.php"><img src="img/logo.png" alt="" width="128"></a>
-  			 </div>	
+        <a href="index.php" style="text-decoration:none; font-size:24pt; color: rgb(242, 156, 170)">TECNODELICIOSAS</a>
   			</div>
   			<div class="col-md-4">
   				<div class="form">
@@ -49,8 +46,10 @@
   		
   	</div>
 
-      <nav class="navbar navbar-expand navbar-custom" style="background-color: rgb(242, 156, 170)">
-  <a class="navbar-brand" href="index.php">Tecnodeliciosas</a>
+      <nav class="navbar navbar-expand navbar-custom shadow-lg" style="background-color: rgb(242, 156, 170)">
+      <div class="brand">
+  			 	 <a href="index.php"><img src="img/logo.png" alt="" width="64"></a>
+  			 </div>	
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon" ></span>
 
@@ -62,7 +61,7 @@
         <a class="nav-link" href="index.php">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="vegetables.php">Fresas</a>
+        <a class="nav-link" href="vegetables.php">Productos</a>
       </li>
        <!--<li class="nav-item">
         <a class="nav-link" href="Fruitd.php">Fruits</a>
