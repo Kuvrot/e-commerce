@@ -39,7 +39,8 @@
   			</div>
   			<div class="col-md-4">
   				<div class="icon3">
-  					<a href="https://goo.gl/maps/ZQUnuedvt6E5mjjv5"> <i class="fa fa-map-marker" aria-hidden="true">Location</i></a>
+  					<a href="https://www.google.com/maps/place/Instituto+Tecnol%C3%B3gico+de+Pachuca+(ITP)/@20.0830678,-98.7762269,873m/data=!3m2!1e3!4b1!4m6!3m5!1s0x85d1a1d7c0f1cfa3:0x122870c3429e18a8!8m2!3d20.0830628!4d-98.7736466!16s%2Fg%2F121g79sj?entry=ttu"
+            target="_blank"> <i class="fa fa-map-marker" aria-hidden="true">Ubicación</i></a>
   					 <a  href="cart.php"><i class="fa fa-shopping-cart" aria-hidden="true">Carrito (<?php echo $count; ?>)</i></a>
   				</div>
                

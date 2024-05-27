@@ -88,6 +88,12 @@
 
  </div>
 
+<div class="container" align="center">
+<video width="800" height="600" controls>
+  <source src="img/video.mp4" type="video/mp4">
+</video> 
+</div>
+
 
     <?php include "parts/footer.php";?>
       <script>
