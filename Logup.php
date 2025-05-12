@@ -126,10 +126,13 @@ if (isset($_POST['submit']))
     $phone=$_POST['phone'];
       $email=$_POST['email'];
         $pass=$_POST['pass'];
-        $sql="INSERT INTO `userr`(`name`, `email`, `pass`) VALUES ('$name','$email','$pass')";
+        $sql="INSERT INTO `userr`(`name`, `email` ,'phone' , `pass`) VALUES ('$name','$email', '$phone' , '$pass')";
       if (mysqli_query($conn,$sql))
        {
-          echo "<script>alert('Logup Sucessfully..');window.open('login.php','_self');</script>";   
+        $nulls = "NA";
+          echo "<script>alert('Registro correcto..');window.open('login.php','_self');</script>";   
+          echo "<script>window.location.href='.php?name=$nombre&dir=$email&con=$nulls&tel=$phone'</script>";   
+
       }
       else
       {
